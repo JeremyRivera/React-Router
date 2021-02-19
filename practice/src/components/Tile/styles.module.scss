@@ -1,0 +1,20 @@
+.Tile {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  padding: 24px;
+  border-radius: 12px;
+  margin: 0 10px;
+  background-color: wheat;
+  backdrop-filter: rgba(0, 0, 0, 0.5);
+  background-repeat: no-repeat;
+  position: relative;
+  cursor: pointer;
+  &:active {
+    transform: scale(0.95);
+    transition: 0.222s ease-in-out;
+  }
+}
+.tileName {
+  font-size: 55px;
+}
